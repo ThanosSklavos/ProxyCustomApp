@@ -1,0 +1,148 @@
+﻿
+/*
+
+.customTable {
+    width: 100%;
+    border-right-color: #ffffff;
+    font-size: 18px;
+    border-collapse: collapse;
+    word-break:break-word;
+}
+
+.customTable th, td {
+    padding: 2px 24px;
+    text-align: left;
+}
+
+.customTable th {
+    background-color: rgba(0,0,0,0.1);
+    color: #212529;
+    width: 25%;
+}
+
+.customTable tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+
+.customTable tbody tr:nth-child(even) {
+    background-color: #e9ecef;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.customTable {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+    .customTable caption {
+        font-size: 1.5em;
+        margin: 0 0 0;
+    }
+
+    .customTable tr {
+        background-color: #fff;
+        border: 1px solid #e1e5e9;
+        padding: .35em;
+        border-radius: 3px;
+    }
+
+    .customTable thead tr:first-child {
+        border: 1px solid #9da9b9;
+    }
+
+    .customTable th,
+    .customTable td {
+        padding: 0.225em;
+        text-align: center;
+        color: #000000;
+        font-size: 14px;
+    }
+
+        .customTable td:nth-child(4) {
+            font-size: 18px;
+        }
+
+    .customTable th {
+        font-size: .85em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        background: #ccc;
+        color: #000;
+    }
+
+    .customTable tbody tr td .btn-invoice {
+        background: #0f82e6;
+        color: #FFF;
+        font-size: 13px;
+        padding: 10px 20px;
+        border: 0;
+    }
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .customTable {
+        border: 0;
+    }
+
+        .customTable caption {
+            font-size: 1.3em;
+        }
+
+        .customTable thead {
+            border: none;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            position: absolute;
+            width: 1px;
+            padding: 0;
+        }
+
+        .customTable tr {
+            border-bottom: 3px solid #e1e5e9;
+            display: block;
+            margin-bottom: .625em;
+        }
+
+        .customTable th,
+        .customTable td {
+            padding: 0.625em;
+        }
+
+        .customTable td {
+            border-bottom: 1px solid #e1e5e9;
+            display: block;
+            font-size: .8em;
+            text-align: right;
+            color: #000;
+        }
+
+            .customTable td::before {
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #000;
+            }
+
+            .customTable td:last-child {
+                border-bottom: 0;
+            }
+
+            .customTable td:nth-child(4) {
+                font-size: 0.8em;
+            }
+}

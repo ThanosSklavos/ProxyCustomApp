@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CIQ AML-Online</title>
+    @*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">*@
+    <link href="~/fonts/fontawesome-SansPro.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/plugins/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="~/Content/plugins/icheck/blue.css">
+    <link rel="stylesheet" href="~/Content/css/adminlte.min.css">
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    @RenderSection("Styles", required: false)
+</head>
+
+<body class="hold-transition login-page">
+    <div class="login-box">
+        <div class="card card-outline card-primary">
+            <div class="card-header text-center">
+               
+                <img src="~/Content/img/ciq-logo.png" widht="100" height="100" alt="CIQ Logo" class="py-4"> <h3><strong>CIQ AML</strong>Online</h3>
+            
+            </div>
+            <div class="card-body">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/js/adminlte.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

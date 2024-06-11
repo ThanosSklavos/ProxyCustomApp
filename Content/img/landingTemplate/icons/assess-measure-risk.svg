@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <linearGradient id="j8rz0bq1aa" x1="0%" x2="99.047%" y1="35.269%" y2="74.505%">
+            <stop offset="0%" stop-color="#7054FF"/>
+            <stop offset="100%" stop-color="#2669FF"/>
+        </linearGradient>
+        <filter id="b93upd7g7b">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-541 -2954) translate(430 2954) translate(111)">
+                    <circle cx="20" cy="20" r="20" fill="url(#j8rz0bq1aa)" fill-rule="nonzero"/>
+                    <g filter="url(#b93upd7g7b)">
+                        <g fill="#000" fill-rule="nonzero">
+                            <path d="M18.156 6.041l.87-.87c1.157-1.157 1.157-3.041 0-4.197-1.155-1.156-3.04-1.156-4.201 0L9.757 6.04H.102v13.857h19.795V6.04h-1.741zm-1.927-3.669c.385-.385 1.013-.385 1.399 0 .385.386.385 1.014 0 1.4L11.398 10H10V8.601l6.229-6.229zm1.69 15.546H2.081V8.021H8.02v3.959h4.201l3.96-3.96h1.741v9.898h-.005z" transform="translate(10 10)"/>
+                            <path d="M4.061 13.959L15.938 13.959 15.938 15.938 4.061 15.938zM4.061 10L7.033 10 7.033 11.98 4.061 11.98z" transform="translate(10 10)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
